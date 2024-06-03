@@ -1,0 +1,14 @@
+   1 cd /E/Python/Linux_Git/Home_work
+   2  git clone git@github.com:OlessyaPriora/repo_new.git
+   3  cd /E/Python/Linux_Git/Home_work/repo_new
+   4  git branch feature
+   5  git checkout feature
+   6  touch README.md
+   7  ls -al
+   8  git add .
+   9  git commit -m "Add file README.md"
+   10  git push origin feature
+   11  git commit --amend -m "Add file README.md amend"
+   12  git checkout main
+   13  git merge feature
+   14  history > history.txt
